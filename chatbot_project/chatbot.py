@@ -1,4 +1,5 @@
 import json
+import os
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -13,25 +14,35 @@ class ChatBot:
         self.questions = []
         self.answers = []
 
+        # Get the folder where chatbot.py is located
+        base_dir = os.path.dirname(
+            os.path.abspath(__file__)
+        )
+
         # Load SPMVV general FAQs
         self.load_faq_file(
-            "data/spmvv_general.json"
+            os.path.join(
+                base_dir,
+                "data",
+                "spmvv_general.json"
+            )
         )
 
         # Load B.Tech FAQs
         self.load_faq_file(
-            "data/btech_faqs.json"
+            os.path.join(
+                base_dir,
+                "data",
+                "btech_faqs.json"
+            )
         )
 
         # TF-IDF Vectorizer
-        # Do not remove English stop words because words like
-        # "what", "how", "can", "where", etc. are important
-        # for distinguishing FAQ questions.
         self.vectorizer = TfidfVectorizer(
             ngram_range=(1, 3)
         )
 
-        # Convert all stored questions into vectors
+        # Convert stored questions into vectors
         self.question_vectors = (
             self.vectorizer.fit_transform(
                 self.questions
@@ -54,10 +65,7 @@ class ChatBot:
 
         for faq in data["faqs"]:
 
-            # ------------------------------------------
             # Multiple question variations
-            # ------------------------------------------
-
             if "questions" in faq:
 
                 for question in faq["questions"]:
@@ -74,10 +82,7 @@ class ChatBot:
                         faq["answer"]
                     )
 
-            # ------------------------------------------
             # Single question
-            # ------------------------------------------
-
             elif "question" in faq:
 
                 processed_question = preprocess_text(
@@ -98,15 +103,11 @@ class ChatBot:
 
     def get_response(self, user_input):
 
-        # Preprocess user's question
         processed_input = preprocess_text(
             user_input
         )
 
-        # ------------------------------------------
-        # 1. EXACT MATCH
-        # ------------------------------------------
-
+        # Exact match first
         for i, question in enumerate(
             self.questions
         ):
@@ -114,18 +115,26 @@ class ChatBot:
             if processed_input == question:
 
                 print("\n-------------------")
-                print("User Input:", user_input)
-                print("Processed Input:", processed_input)
-                print("Match Type: EXACT MATCH")
-                print("Matched Question:", question)
+                print(
+                    "User Input:",
+                    user_input
+                )
+                print(
+                    "Processed Input:",
+                    processed_input
+                )
+                print(
+                    "Match Type: EXACT MATCH"
+                )
+                print(
+                    "Matched Question:",
+                    question
+                )
                 print("-------------------")
 
                 return self.answers[i]
 
-        # ------------------------------------------
-        # 2. TF-IDF SIMILARITY MATCHING
-        # ------------------------------------------
-
+        # TF-IDF similarity
         user_vector = self.vectorizer.transform(
             [processed_input]
         )
@@ -135,7 +144,6 @@ class ChatBot:
             self.question_vectors
         )
 
-        # Find highest similarity score
         best_match_index = (
             similarity_scores.argmax()
         )
@@ -150,22 +158,29 @@ class ChatBot:
             best_match_index
         ]
 
-        # ------------------------------------------
-        # DEBUG INFORMATION
-        # ------------------------------------------
-
         print("\n-------------------")
-        print("User Input:", user_input)
-        print("Processed Input:", processed_input)
-        print("Confidence:", round(confidence, 3))
-        print("Best Question:", best_question)
-        print("Match Type: TF-IDF")
+        print(
+            "User Input:",
+            user_input
+        )
+        print(
+            "Processed Input:",
+            processed_input
+        )
+        print(
+            "Confidence:",
+            round(confidence, 3)
+        )
+        print(
+            "Best Question:",
+            best_question
+        )
+        print(
+            "Match Type: TF-IDF"
+        )
         print("-------------------")
 
-        # ------------------------------------------
-        # 3. LOW CONFIDENCE RESPONSE
-        # ------------------------------------------
-
+        # Low-confidence fallback
         if confidence < 0.25:
 
             return (
@@ -174,10 +189,6 @@ class ChatBot:
                 "Please ask a question related "
                 "to SPMVV or B.Tech."
             )
-
-        # ------------------------------------------
-        # 4. RETURN BEST ANSWER
-        # ------------------------------------------
 
         return self.answers[
             best_match_index
