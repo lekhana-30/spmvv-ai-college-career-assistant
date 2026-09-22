@@ -1,0 +1,107 @@
+{
+  "faqs": [
+    {
+      "question": "What is SPMVV?",
+      "answer": "Sri Padmavati Mahila Visvavidyalayam (SPMVV) is a Women's University located in Tirupati, Andhra Pradesh."
+    },
+    {
+  "question": "hi",
+  "answer": "Hello! Welcome to the SPMVV AI Assistant. How can I help you today?"
+},
+{
+  "question": "hello",
+  "answer": "Hi! I'm the SPMVV AI Assistant. Ask me about SPMVV or B.Tech."
+},
+{
+  "question": "hey",
+  "answer": "Hello! How may I assist you regarding SPMVV or B.Tech programs?"
+},
+{
+  "question": "who are you",
+  "answer": "I am the SPMVV AI Assistant. I provide information about SPMVV and guidance for B.Tech students."
+},
+    {
+  "patterns": [
+    "Where is SPMVV located?",
+    "Where is SPMVV?",
+    "SPMVV location",
+    "Location of SPMVV",
+    "How can I reach SPMVV?"
+  ],
+  "answer": "SPMVV is located in Tirupati, Andhra Pradesh."
+},
+    {
+      "question": "When was SPMVV established?",
+      "answer": "SPMVV was established in 1983."
+    },
+    {
+      "question": "Is SPMVV a women's university?",
+      "answer": "Yes, SPMVV is a university exclusively for women."
+    },
+    {
+      "question": "Does SPMVV offer B.Tech?",
+      "answer": "Yes, SPMVV offers B.Tech programs through the School of Engineering and Technology."
+    },
+    {
+      "question": "Does SPMVV provide hostel facilities?",
+      "answer": "Yes, hostel facilities are available for students."
+    },
+    {
+      "question": "Does SPMVV have a library?",
+      "answer": "Yes, SPMVV has a central library."
+    },
+    {
+      "question": "What is the official website of SPMVV?",
+      "answer": "https://www.spmvv.ac.in/"
+    },
+    {
+      "question": "How can I contact SPMVV?",
+      "answer": "You can visit the official website or contact the university administration through the contact details available on the website."
+    },
+    {
+      "question": "What facilities are available at SPMVV?",
+      "answer": "SPMVV provides hostels, library, laboratories, auditorium, computer center and sports facilities."
+    }
+    ,
+{
+  "question": "What courses are offered at SPMVV?",
+  "answer": "SPMVV offers Undergraduate, Postgraduate, Diploma and Doctoral programs in various disciplines."
+},
+{
+  "question": "What is the full form of SPMVV?",
+  "answer": "SPMVV stands for Sri Padmavati Mahila Visvavidyalayam."
+},
+{
+  "question": "Who can study at SPMVV?",
+  "answer": "SPMVV is primarily a women's university offering education for female students."
+},
+{
+  "question": "Does SPMVV provide placements?",
+  "answer": "Yes, SPMVV has a placement cell that assists students with training, internships and placement opportunities."
+},
+{
+  "question": "Does SPMVV have a computer center?",
+  "answer": "Yes, SPMVV provides computer laboratories and computing facilities for students."
+},
+{
+  "question": "Does SPMVV provide scholarships?",
+  "answer": "Students may be eligible for government and university scholarships based on applicable rules."
+},
+{
+  "question": "Does SPMVV have sports facilities?",
+  "answer": "Yes, SPMVV provides sports and recreational facilities for students."
+},
+{
+  "question": "Does SPMVV have research programs?",
+  "answer": "Yes, SPMVV offers research opportunities through M.Phil and Ph.D programs in various disciplines."
+},
+{
+  "question": "What city is SPMVV located in?",
+  "answer": "SPMVV is located in Tirupati, Andhra Pradesh."
+},
+{
+  "question": "Is SPMVV recognized by UGC?",
+  "answer": "Yes, SPMVV is recognized by the University Grants Commission (UGC)."
+}
+  ]
+}

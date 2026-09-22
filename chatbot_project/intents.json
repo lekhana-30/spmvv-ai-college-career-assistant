@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there!",
+        "Welcome! What would you like to know?"
+      ]
+    },
+
+    {
+      "tag": "farewell",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "take care"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Have a great day!"
+      ]
+    },
+
+    {
+      "tag": "about_chatbot",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "tell me about yourself"
+      ],
+      "responses": [
+        "I am an AI chatbot built using Python, NLTK, Scikit-Learn and Streamlit."
+      ]
+    },
+
+    {
+      "tag": "college",
+      "patterns": [
+        "tell me about college",
+        "college information",
+        "what is your college"
+      ],
+      "responses": [
+        "This chatbot can answer basic college-related questions."
+      ]
+    },
+
+    {
+      "tag": "project",
+      "patterns": [
+        "project details",
+        "tell me about project",
+        "what project are you built on"
+      ],
+      "responses": [
+        "This chatbot uses TF-IDF vectorization and cosine similarity for response matching."
+      ]
+    },
+    {
+    "tag": "ai",
+  "patterns": [
+    "what is ai",
+    "define artificial intelligence",
+    "tell me about ai",
+    "what is artificial intelligence",
+    "explain ai"
+  ],
+   "responses": [
+    "Artificial Intelligence (AI) is a field of computer science that enables machines to perform tasks that normally require human intelligence."
+  ]
+    }
+  ]
+}

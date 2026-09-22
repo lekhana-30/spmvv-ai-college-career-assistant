@@ -1,0 +1,256 @@
+{
+  "faqs": [
+    {
+      "question": "Does SPMVV offer B.Tech?",
+      "answer": "Yes, SPMVV offers B.Tech programs through the School of Engineering and Technology."
+    },
+    {
+      "question": "What B.Tech branches are available?",
+      "answer": "SPMVV offers B.Tech programs in branches such as Computer Science and Engineering (CSE), Electronics and Communication Engineering (ECE), Electrical and Electronics Engineering (EEE) and Mechanical Engineering."
+    },
+    {
+      "question": "What is CSE?",
+      "answer": "Computer Science and Engineering focuses on programming, software development, databases, artificial intelligence, machine learning, networking and cybersecurity."
+    },
+    {
+      "question": "What programming language should a CSE student learn first?",
+      "answer": "Python is one of the best programming languages for beginners because it is simple, powerful and widely used in industry."
+    },
+    {
+      "question": "What skills should a CSE student learn?",
+      "answer": "A CSE student should learn Python, Java, Data Structures and Algorithms, Database Management Systems, Operating Systems, Computer Networks and Web Development."
+    },
+    {
+      "question": "How can I get a software job after B.Tech?",
+      "answer": "Focus on DSA, projects, internships, aptitude preparation and interview practice while maintaining a good academic record."
+    },
+    {
+      "question": "What projects can a CSE student build?",
+      "answer": "Students can build AI chatbots, web applications, recommendation systems, face recognition systems, college management systems and mobile applications."
+    },
+    {
+      "question": "What is an internship?",
+      "answer": "An internship is practical industry experience that helps students apply classroom knowledge to real-world projects."
+    },
+    {
+      "question": "When should I start internships?",
+      "answer": "Students should ideally start applying for internships from their second year onwards."
+    },
+    {
+      "question": "What is artificial intelligence?",
+      "answer": "Artificial Intelligence is a branch of computer science that enables machines to perform tasks that normally require human intelligence."
+    },
+{
+  "question": "What should a first year CSE student learn?",
+  "answer": "A first year CSE student should focus on C programming, Python basics, problem solving, communication skills and understanding computer fundamentals."
+},
+{
+  "question": "What should a second year CSE student learn?",
+  "answer": "A second year CSE student should learn Python, Java, Data Structures and Algorithms, DBMS, Git and GitHub while building projects."
+},
+{
+  "question": "What should a third year CSE student learn?",
+  "answer": "A third year CSE student should focus on DSA, Web Development, DBMS, Operating Systems, Computer Networks, internships and projects."
+},
+{
+  "question": "What should a fourth year CSE student learn?",
+  "answer": "A fourth year CSE student should focus on placements, aptitude, interview preparation, system design and advanced projects."
+},
+{
+  "question": "What is DSA?",
+  "answer": "DSA stands for Data Structures and Algorithms. It helps in solving problems efficiently and is one of the most important subjects for software engineering interviews."
+},
+{
+  "question": "Why should I learn DSA?",
+  "answer": "DSA improves problem solving skills and is required for coding interviews in most software companies."
+},
+{
+  "question": "What is DBMS?",
+  "answer": "DBMS stands for Database Management System. It is used to store, organize and manage data efficiently."
+},
+{
+  "question": "Why should I learn DBMS?",
+  "answer": "DBMS is essential for software development because most applications store data in databases."
+},
+{
+  "question": "What is Git?",
+  "answer": "Git is a version control system used to track changes in code and collaborate with other developers."
+},
+{
+  "question": "What is GitHub?",
+  "answer": "GitHub is a platform that hosts Git repositories and helps developers collaborate and showcase projects."
+},
+{
+  "question": "How can I get internships?",
+  "answer": "Build projects, maintain a GitHub profile, learn DSA and apply through LinkedIn, Internshala and company career pages."
+},
+{
+  "question": "When should I start internships?",
+  "answer": "Students should start looking for internships from the second year onwards."
+},
+{
+  "question": "What projects should I build?",
+  "answer": "Build projects such as AI chatbots, student management systems, recommendation systems, web applications and machine learning projects."
+},
+{
+  "question": "Should I learn Python or Java?",
+  "answer": "Python is easier for beginners and useful for AI, data science and automation. Java is widely used in enterprise applications. Learning both is beneficial."
+},
+{
+  "question": "How do I prepare for placements?",
+  "answer": "Focus on DSA, aptitude, DBMS, Operating Systems, Computer Networks, projects and mock interviews."
+}
+,
+{
+  "question": "How do I become an AI Engineer?",
+  "answer": "Learn Python, Mathematics, Machine Learning, Deep Learning, NLP, Computer Vision and build AI projects. Create a strong GitHub portfolio and gain internship experience."
+},
+{
+  "question": "How do I become a Software Engineer?",
+  "answer": "Learn DSA, DBMS, Operating Systems, Computer Networks, Web Development, Git and build multiple real-world projects."
+},
+{
+  "question": "How do I become a Data Scientist?",
+  "answer": "Learn Python, Statistics, SQL, Machine Learning, Data Visualization and work on data analysis projects."
+},
+{
+  "question": "What should I learn after Python?",
+  "answer": "After Python, learn DSA, DBMS, SQL, Git, GitHub and start building projects."
+},
+{
+  "question": "What should I do during summer vacation?",
+  "answer": "Learn new skills, complete certifications, build projects, contribute to GitHub and apply for internships."
+},
+{
+  "question": "How can I improve my resume?",
+  "answer": "Build projects, participate in hackathons, complete internships, contribute to GitHub and learn industry-relevant skills."
+},
+{
+  "question": "How can I improve coding skills?",
+  "answer": "Practice coding regularly on LeetCode, HackerRank and CodeChef while learning DSA concepts."
+},
+{
+  "question": "What are the best certifications for CSE students?",
+  "answer": "Certifications in Python, Java, Cloud Computing, AI/ML, Data Science and Cybersecurity are highly valuable."
+}
+,
+{
+  "question": "I am a second year CSE student what should I do",
+  "answer": "As a second year CSE student, focus on Python, Java, DSA, DBMS, Git and GitHub. Build at least two projects and start exploring internships."
+},
+{
+  "question": "I am a third year CSE student what should I do",
+  "answer": "Focus on DSA, Web Development, Machine Learning or your chosen specialization. Build strong projects, prepare for internships and maintain an active GitHub profile."
+},
+{
+  "question": "How many projects should I build",
+  "answer": "Aim to build at least 4 to 6 quality projects before graduation. Include web development, database and AI-based projects."
+},
+{
+  "question": "What projects are best for CSE students",
+  "answer": "AI Chatbot, Student Management System, Resume Analyzer, Face Recognition System, Recommendation System and College Information Assistant are excellent projects."
+},
+{
+  "question": "How important is GitHub",
+  "answer": "GitHub is very important because recruiters often review project repositories and coding activity before interviews."
+},
+{
+  "question": "How can I get a high package job",
+  "answer": "Focus on DSA, strong projects, internships, communication skills and interview preparation. Consistent practice is the key."
+},
+{
+  "question": "Should I learn AI or Web Development",
+  "answer": "Both are valuable. Start with Web Development to strengthen programming skills and then explore AI if you are interested in Machine Learning and Data Science."
+},
+{
+  "question": "What is the roadmap to become an AI Engineer",
+  "answer": "Learn Python, Mathematics, Machine Learning, Deep Learning, NLP, Computer Vision, build AI projects and gain internship experience."
+}
+,
+{
+  "question": "What should I learn in first year",
+  "answer": "Focus on C programming, Python basics, computer fundamentals, problem-solving skills and communication skills. Build a strong foundation before moving to advanced topics."
+},
+{
+  "question": "What should I learn in second year",
+  "answer": "Learn Python or Java, Data Structures and Algorithms (DSA), DBMS, Git and GitHub. Start building projects and applying for internships to gain practical experience."
+},
+{
+  "question": "What should I learn in third year",
+  "answer": "Master DSA, Web Development or Machine Learning, complete internships, work on major projects and begin placement preparation."
+},
+{
+  "question": "What should I learn in fourth year",
+  "answer": "Focus on placement preparation, mock interviews, advanced projects, industry certifications and improving your resume and communication skills."
+},
+{
+  "question": "How do I start learning Python",
+  "answer": "Begin with variables, data types, loops, functions and conditional statements. Then learn lists, dictionaries, file handling and Object-Oriented Programming. Build small projects to strengthen your skills."
+},
+{
+  "question": "How do I start learning DSA",
+  "answer": "Start with Arrays and Strings, then move to Linked Lists, Stacks, Queues, Trees, Graphs and Sorting Algorithms. Practice coding problems regularly on LeetCode, HackerRank and GeeksforGeeks."
+},
+{
+  "question": "How do I learn GitHub",
+  "answer": "Learn Git commands such as clone, add, commit, push and pull. Create repositories, upload projects and maintain a portfolio to showcase your work."
+},
+{
+  "question": "What are the best websites for coding practice",
+  "answer": "LeetCode, HackerRank, CodeChef, GeeksforGeeks, Coding Ninjas and InterviewBit are excellent platforms for coding practice and interview preparation."
+},
+{
+  "question": "How can I become job ready",
+  "answer": "Learn programming, master DSA, understand DBMS and OOP concepts, build projects, maintain a GitHub profile, complete internships and prepare for interviews."
+},
+{
+  "question": "What are the most important skills for CSE students",
+  "answer": "Programming, DSA, DBMS, Operating Systems, Computer Networks, Git, problem-solving, project development and communication skills are essential."
+},
+{
+  "question": "Give me project ideas",
+  "answer": "You can build an AI Chatbot, Resume Analyzer, Student Management System, Face Recognition System, Recommendation System, Expense Tracker or College Information Assistant."
+},
+{
+  "question": "Best AI projects for students",
+  "answer": "AI Chatbot, Fake News Detection, Sentiment Analysis, Recommendation System, Face Recognition and AI Resume Screening are excellent AI projects."
+},
+{
+  "question": "Best Python projects",
+  "answer": "AI Chatbot, Weather App, Expense Tracker, Library Management System, Portfolio Website and Web Scraper are great Python projects."
+},
+{
+  "question": "Best resume projects",
+  "answer": "AI Chatbot, Resume Analyzer, Recommendation System, Full Stack Web Application, Portfolio Website and Machine Learning projects are strong resume builders."
+},
+{
+  "question": "How do I get an internship",
+  "answer": "Build projects, create a strong GitHub profile, learn DSA, prepare a good resume and apply consistently through LinkedIn, Internshala and company websites."
+},
+{
+  "question": "Where can I find internships",
+  "answer": "You can find internships on Internshala, LinkedIn, Wellfound, Naukri and company career portals."
+},
+{
+  "question": "Do I need projects for internships",
+  "answer": "Yes. Projects demonstrate practical skills and help recruiters evaluate your technical abilities, increasing your chances of selection."
+},
+{
+  "question": "How many projects should I have",
+  "answer": "Aim for at least 3 to 5 quality projects that showcase different skills such as programming, web development, databases and AI."
+},
+{
+  "question": "How do I prepare for placements",
+  "answer": "Practice DSA regularly, revise DBMS, Operating Systems and Computer Networks, improve aptitude skills, work on projects and attend mock interviews."
+},
+{
+  "question": "What is the placement roadmap",
+  "answer": "Learn programming, master DSA, build strong projects, complete internships, improve communication skills and prepare for technical and HR interviews."
+},
+{
+  "question": "What subjects are important for interviews",
+  "answer": "Data Structures and Algorithms, DBMS, Operating Systems, Computer Networks, OOP concepts and basic System Design are commonly asked in interviews."
+}
+  ]
+  
+}
