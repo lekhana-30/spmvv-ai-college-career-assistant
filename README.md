@@ -157,7 +157,7 @@ Best Matching FAQ
         ↓
 
 Chatbot Response
-
+```
 🔎 TF-IDF and Cosine Similarity
 
 The chatbot uses TF-IDF (Term Frequency-Inverse Document Frequency) to convert questions into numerical vectors.
